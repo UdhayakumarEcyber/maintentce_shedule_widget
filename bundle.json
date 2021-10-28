@@ -1,0 +1,27 @@
+{
+    "id": "c26da126-119b-4978-9bf3-b15379478897",
+    "author": "Eutech",
+    "widgets": [
+        {
+            "id": "maintentce_shedule_widget",
+            "name": "maintentce_shedule_widget",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        },
+        {
+            "id":"MaintenanceSchedule",
+            "title":"MaintenanceSchedule",
+            "description":"MaintenanceSchedule"
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

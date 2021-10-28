@@ -1,0 +1,37 @@
+{
+    "id": "e4e909d2-4df0-488d-f523-05f184d95175",
+    "author": "",
+    "widgets": [
+        {
+            "id": "maintentce_shedule_widget",
+            "name": "maintentce_shedule_widget",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        {
+            "id": "maintentce_shedule_widgetLink",
+            "label": "",
+            "description": "",
+            "target": "",
+            "icon": "",
+            "roles":[]
+        }
+    ],
+    "uis": [
+        {
+            "id": "maintentce_shedule_widgetLink",
+            "label":"",
+            "description": "",
+            "roles": []
+        }
+    ],
+    "menuItems": [
+        {
+            "id": "maintentce_shedule_widgetLink",
+            "title": "maintentce_shedule_widget"
+        }
+    ]
+}
