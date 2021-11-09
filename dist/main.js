@@ -93,7 +93,7 @@
 /*! exports provided: id, author, widgets, sidebarLinks, uis, menuItems, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"id\":\"c26da126-119b-4978-9bf3-b15379478897\",\"author\":\"Eutech\",\"widgets\":[{\"id\":\"maintentce_shedule_widget\",\"name\":\"maintentce_shedule_widget\",\"description\":\"A sample widget\",\"icon\":\"\",\"tags\":[]},{\"id\":\"MaintenanceSchedule\",\"title\":\"MaintenanceSchedule\",\"description\":\"MaintenanceSchedule\"}],\"sidebarLinks\":[],\"uis\":[],\"menuItems\":[]}");
+module.exports = JSON.parse("{\"id\":\"c26da126-119b-4978-9bf3-b15379478897\",\"author\":\"eutech\",\"widgets\":[{\"id\":\"maintentce_shedule_widget\",\"name\":\"maintentce_shedule_widget\",\"description\":\"A sample widget\",\"icon\":\"\",\"tags\":[]},{\"id\":\"MaintenanceSchedule\",\"title\":\"MaintenanceSchedule\",\"description\":\"MaintenanceSchedule\"}],\"sidebarLinks\":[{\"id\":\"DigitalTwin\",\"label\":\"Digital Twin\",\"description\":\"Digital Twin\"},{\"id\":\"TenantManagement\",\"label\":\"Tenant Management\",\"description\":\"Tenant Management\"},{\"id\":\"IncidentManagement\",\"label\":\"Incident Management\",\"description\":\"Incident Management\"},{\"id\":\"WOManagement\",\"label\":\"Work Order Management\",\"description\":\"Work Order Management\"}],\"uis\":[],\"menuItems\":[]}");
 
 /***/ }),
 
@@ -312,7 +312,7 @@ module.exports = function () {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".maintainence-widget {\n  background-color: #5752c9; }\n\n.visitors_count {\n  float: left;\n  width: 20%;\n  position: relative; }\n  .visitors_count .filteroverall {\n    display: inline-block;\n    position: absolute;\n    width: 86%;\n    left: 3%;\n    top: 0; }\n    .visitors_count .filteroverall .filter_sec {\n      display: inline-block;\n      margin: 1em 0 0 1em;\n      background: url(https://static.iviva.com/images/Adani_UXP/filter-icon.svg) no-repeat center center;\n      width: 2.7em;\n      height: 2.7em;\n      background-size: 40% auto;\n      background-color: #b7b7b7;\n      padding: 10px 10px;\n      border-radius: 50%;\n      cursor: pointer;\n      position: relative; }\n      .visitors_count .filteroverall .filter_sec:hover {\n        background-color: #ffb857; }\n    .visitors_count .filteroverall .filter-menu {\n      background: #fff;\n      border-radius: 10px;\n      font-size: 10px;\n      padding: 2px 5px;\n      box-shadow: 0px 0px 6px #c1c1c1;\n      width: 100%;\n      position: absolute;\n      top: 42px;\n      left: 5px;\n      z-index: 1;\n      display: none;\n      min-height: 26em; }\n      .visitors_count .filteroverall .filter-menu.filter-menu-nav {\n        display: inline-block; }\n      .visitors_count .filteroverall .filter-menu ul {\n        margin: 0;\n        padding: 0; }\n        .visitors_count .filteroverall .filter-menu ul li {\n          display: inline-block;\n          padding: 2px 0;\n          width: 100%; }\n          .visitors_count .filteroverall .filter-menu ul li:last-child {\n            border-bottom: 0px solid #d4d4d4; }\n          .visitors_count .filteroverall .filter-menu ul li a {\n            display: inline-block;\n            padding: 25px 6px;\n            width: 100%;\n            margin: 1px 0;\n            box-sizing: border-box;\n            border-radius: 10px;\n            text-align: center;\n            font-size: 1.3em;\n            background: #fafafa;\n            color: #424242;\n            cursor: pointer; }\n            .visitors_count .filteroverall .filter-menu ul li a:hover, .visitors_count .filteroverall .filter-menu ul li a.filterfootfall_active {\n              background: #ffb857; }\n    .visitors_count .filteroverall .filter_menu_close {\n      display: none;\n      background-color: #433636;\n      color: #ffffff;\n      position: absolute;\n      bottom: 10px;\n      border-radius: 50%;\n      text-align: center;\n      font-family: arial;\n      cursor: pointer;\n      transform: translate(-50%, 0);\n      background-image: url(https://static.iviva.com/images/close.svg);\n      background-position: center center;\n      background-size: 44% auto;\n      filter: invert(1);\n      background-repeat: no-repeat;\n      left: 50%;\n      padding: 12px 12px; }\n  .visitors_count .visitors_count-top {\n    width: 100%;\n    color: #fff;\n    text-align: center;\n    margin-top: 4em;\n    display: inline-block;\n    position: relative;\n    margin-top: 2em; }\n    .visitors_count .visitors_count-top .visitors_count-no {\n      display: inline-block;\n      font-size: 2em;\n      width: 100%;\n      position: relative; }\n      .visitors_count .visitors_count-top .visitors_count-no .visitors_icon {\n        display: inline-block;\n        background: url(https://static.iviva.com/images/Adani_UXP/visitors-icon1.svg) no-repeat 0 0;\n        width: 0.5em;\n        height: 0.5em;\n        position: absolute;\n        top: -15px; }\n    .visitors_count .visitors_count-top .box {\n      position: absolute;\n      top: 0em;\n      left: 1em;\n      width: 80%; }\n      .visitors_count .visitors_count-top .box .uxp-form-select {\n        min-width: 120px !important;\n        margin-top: -8px !important; }\n        .visitors_count .visitors_count-top .box .uxp-form-select .uxp-select-placeholder {\n          padding: 12px !important;\n          color: white;\n          background-color: #8582ccc9;\n          font-size: 9px; }\n          .visitors_count .visitors_count-top .box .uxp-form-select .uxp-select-placeholder::before {\n            content: \"\";\n            position: absolute;\n            top: 51%;\n            right: 7px;\n            width: 20px;\n            height: 20px;\n            background-color: transparent;\n            transform: translateY(-50%);\n            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy45MzkiIGhlaWdodD0iOC45MDEiIHZpZXdCb3g9IjAgMCAxMy45MzkgOC45MDEiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOm5vbmU7c3Ryb2tlOiM0MjQyNDI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDozcHg7b3BhY2l0eTowLjYyOTt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0tMTQ0My43Nyw3NDcuNzQybDQuODM2LDUuMjgyLDQuODY0LTUuMjgyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDQ1Ljg4OSAtNzQ1LjYyMykiLz48L3N2Zz4=);\n            background-position: center;\n            background-repeat: no-repeat;\n            background-size: 50%; }\n      .visitors_count .visitors_count-top .box select {\n        background-color: #8582ccc9;\n        color: white;\n        padding: 12px;\n        width: 87%;\n        border: none;\n        font-size: 20px;\n        box-shadow: 0 0px 7px rgba(0, 0, 0, 0.2);\n        -webkit-appearance: button;\n        appearance: button;\n        outline: none;\n        padding-left: 29px;\n        font-size: 11px;\n        box-sizing: border-box;\n        border-radius: 12px;\n        height: 38px; }\n        .visitors_count .visitors_count-top .box select option {\n          padding: 30px; }\n      .visitors_count .visitors_count-top .box::before {\n        content: \"\";\n        position: absolute;\n        top: 18px;\n        left: 24px;\n        width: 7px;\n        height: 7px;\n        text-align: center;\n        pointer-events: none;\n        background-position: center;\n        background-repeat: no-repeat;\n        background-size: 60% auto;\n        background-color: #ffff;\n        border-radius: 50%;\n        padding: 2px 2px;\n        background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.021' height='9.361' viewBox='0 0 7.021 9.361'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M4.681,2.633V.585a.585.585,0,0,1,1.17,0V2.633Zm2.048.293H.293A.293.293,0,0,0,0,3.218V3.8A.293.293,0,0,0,.293,4.1H.585v.585a2.926,2.926,0,0,0,2.34,2.867V9.361H4.1V7.547a2.926,2.926,0,0,0,2.34-2.867V4.1h.293A.293.293,0,0,0,7.021,3.8V3.218A.293.293,0,0,0,6.728,2.925ZM2.34,2.633V.585a.585.585,0,0,0-1.17,0V2.633Z'/%3E%3C/svg%3E\"); }\n      .visitors_count .visitors_count-top .box:hover::before {\n        color: rgba(255, 255, 255, 0.6);\n        background-color: rgba(255, 255, 255, 0.2); }\n    .visitors_count .visitors_count-top p {\n      display: inline-block;\n      text-transform: uppercase;\n      color: #ffffff;\n      margin-top: 10em;\n      font-size: 11px;\n      line-height: 1.2em;\n      padding: 0 0 0 10px;\n      position: relative;\n      width: 80%; }\n      .visitors_count .visitors_count-top p::before {\n        content: \"\";\n        position: absolute;\n        top: 0px;\n        left: 3px;\n        width: 10px;\n        height: 10px;\n        text-align: center;\n        pointer-events: none;\n        background-position: center;\n        background-repeat: no-repeat;\n        background-size: 100% auto;\n        padding: 3px 3px;\n        background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.149' height='19.38' viewBox='0 0 22.149 19.38'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M21.743,10.15,19.786,8.193a1.384,1.384,0,0,0-.979-.405h-2.2V4.326A2.076,2.076,0,0,0,14.535,2.25H7.614A2.076,2.076,0,0,0,5.537,4.326V7.787h-2.2a1.385,1.385,0,0,0-.979.405L.405,10.15A1.384,1.384,0,0,0,0,11.129v3.579H5.537v-.692a.692.692,0,0,1,.692-.692H7.614a.692.692,0,0,1,.692.692v.692h5.537v-.692a.692.692,0,0,1,.692-.692h1.384a.692.692,0,0,1,.692.692v.692h5.537v-3.58A1.384,1.384,0,0,0,21.743,10.15Zm-7.9-2.363H8.306V5.019h5.537Zm2.769,9a.692.692,0,0,1-.692.692H14.535a.692.692,0,0,1-.692-.692v-.692H8.306v.692a.692.692,0,0,1-.692.692H6.229a.692.692,0,0,1-.692-.692v-.692H0v4.153A1.384,1.384,0,0,0,1.384,21.63h19.38a1.384,1.384,0,0,0,1.384-1.384V16.093H16.611Z' transform='translate(0 -2.25)'/%3E%3C/svg%3E\"); }\n    .visitors_count .visitors_count-top em {\n      font-size: 0.6em;\n      display: inline-block;\n      margin-top: 0.7em;\n      width: 100%; }\n\n.environment_data_widget {\n  display: inline-block;\n  width: 100%;\n  overflow-x: auto;\n  overflow-y: hidden; }\n  .environment_data_widget .environment_data {\n    display: inline-flex;\n    max-width: 100%;\n    min-width: 100%; }\n    .environment_data_widget .environment_data .footfall-arrows {\n      position: absolute;\n      right: 5px;\n      top: 45px;\n      cursor: pointer; }\n    .environment_data_widget .environment_data h5 {\n      display: inline-block;\n      width: 100%;\n      box-sizing: border-box;\n      font-size: 11px;\n      padding: 0 0 10px 10px;\n      text-transform: uppercase;\n      font-weight: 600; }\n\n.visitors_chart {\n  background-color: #ffffff;\n  float: right;\n  width: 80%;\n  height: 100%; }\n  .visitors_chart .visitors_chart_task {\n    display: inline-block;\n    width: 100%;\n    padding: 10px 4% 0px;\n    box-sizing: border-box;\n    text-align: center; }\n    .visitors_chart .visitors_chart_task ul {\n      margin: 0;\n      padding: 0;\n      display: flex;\n      height: 10px; }\n      .visitors_chart .visitors_chart_task ul li {\n        display: inline-block;\n        width: 25%; }\n        .visitors_chart .visitors_chart_task ul li p {\n          display: inline-block;\n          width: 100%;\n          font-size: 9px; }\n        .visitors_chart .visitors_chart_task ul li h4 {\n          display: inline-block;\n          width: 100%;\n          font-size: 19px;\n          font-weight: 100;\n          margin: 0;\n          position: relative; }\n          .visitors_chart .visitors_chart_task ul li h4 em {\n            font-size: 0.7em; }\n          .visitors_chart .visitors_chart_task ul li h4 span.session-pict {\n            display: inline-block;\n            width: 40px;\n            background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 33.62 19.35'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23424242;%7D.cls-2,.cls-3%7Bisolation:isolate;%7D.cls-3%7Bfont-size:10px;fill:%23fff;font-family:Arial-BoldMT, Arial;font-weight:700;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cimage width='19' height='19' transform='translate(0 0.35)' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAA99JREFUOBFtVEtvW0UU/mbu3EfsPBw7TRyHpnmW0EXjUkRBbRBLVqSt2CGkbFk1P6ELNog/QSUW7OLsygYKQlUlQHVaQNA0aVrSxkmaxO/HvfadfnNN1FbqkebO3DNzvvOdx4zAG8TzMOH7WBQCWaGR1eAM5LVAXmrkLQerzSa23mD6usqWWLYkjji0bQntKaFdzjHOjhTa6M0+z1173fKVvwRFKbGiaOBY0CO9tn6r39GnEo5O9yo9HFe6h6B9ttSuglZcKwsrhEgcw5B9VwiUg8aiRQ0ZQDLGuCPRbGuQHWp+GB00a78DVIMO2qGG1shx44rZtMxHMjQBcU0QwGUMAz2KABZcW8DmfzJuIUZghoZKy4BqBJxCDkuKOZqVCHpHmGS3WrhLMglJVI/wQz02GYVIxiwEnZBAFpKeQkjdo2qAKgErrTZImmAE1aJo2+45S4RYooPLRI/E4W6HAOMJBwuTSRxVm3h7ZAAXp9O4NJfBv0+fo1DtAhkDSRYk6mmEj2UIacoeiQmzQf4t5sJ4LtRCpDwHn56dxXqhjO9uP0SFuWsZShRzPvh/jRBZ1QnDbJeVYDI1DHCHCXZsm8PF7MwQHObs9MkR9oqLqZEmDxxhvdw0yY+EZSAw5hX/5o0mNJWhhp0Bz7YwkezB0sVJtJoBYqHEVMLGhekp3FzbRL1Nb4aB7kSAESgbnIXGGse8cRIxYxHKrP1O0WdIASSd/LZ9QN8+lCvx68MC9lsE02FUzShlTDqprEkhkY9iI5jJQchDikXYazVx78kOavQ+MZZAvM/Dg/1DPCkGzGub55h82pgo6J89x2tGihOE/cSUOKoMkU/0K2QGFW6vl5CJCRwdVlFpNvDLxnPc36ljbNBGuU5mPBs1bpfNDck+yyklSwaI/WJSiURcRl6z6V7kd6oYGR1EXVvYKNSRiiukkzbGUi5D6aZOCF3yPC9ntdso8kI3yZrsJGYzcQzGBUxl3h9PQ1oKK39sYX23jPfGezF32gTSxmHFx8QJF3Vfo6PFl74f3CJ2V0YH3dyHc6nFuCPw336JVQXOZTI4MzqMZ0WG2WggkUrhpwdPMRRrsZl9XjugFYjV3O8Hlw1KdDfN4rMPTt5UqvOOZYm5dKoffBTY6T4uXVgAXwrMnF9A70wWf939GXsV4MypfhZUr3pObCm/VWTzRVGb6aV88fHocn6zer3d0QNTwwpXr36Os+c/QoOv4dfffIVa+QB9PU7pn+3K8nqh9u1Ly1eYHSvvbVXvvDsZ+/7v7erjvZLeLe1uiMmp6XTQ9tc27v/4w+aef+PPR7XlZ8XGrWOb4/kF9gqg+/+VcegAAAAASUVORK5CYII='/%3E%3Cimage width='19' height='19' transform='translate(7.53 0.35)' xlink:href='../../Ellipse%252014/Ellipse%252014.png'/%3E%3Ccircle class='cls-1' cx='24.12' cy='9.5' r='9.5'/%3E%3Cg class='cls-2'%3E%3Ctext class='cls-3' transform='translate(18.45 13)'%3E+8%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n            background-position: 0 0;\n            background-repeat: no-repeat;\n            position: absolute;\n            height: 20px;\n            right: 10px; }\n  .visitors_chart .prev_next a {\n    cursor: pointer; }\n  .visitors_chart .company_list {\n    display: inline-block;\n    width: 13.5%;\n    margin-left: 1%;\n    margin-top: 1em; }\n    .visitors_chart .company_list ul {\n      margin: 0;\n      padding: 0; }\n      .visitors_chart .company_list ul li {\n        display: inline-block;\n        width: 85%;\n        font-size: 0.65em;\n        padding: 11px 0;\n        word-wrap: break-word; }\n  .visitors_chart .company_data {\n    display: inline-flex;\n    width: 82%;\n    vertical-align: top; }\n    .visitors_chart .company_data p.no_maintain {\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      transform: translate(-50%, -50%);\n      width: auto;\n      font-size: 15px;\n      color: #424242;\n      font-weight: bold; }\n    .visitors_chart .company_data .company_data_data {\n      display: flex; }\n    .visitors_chart .company_data .ButtonsDiv {\n      position: absolute;\n      display: flex;\n      width: 68%;\n      justify-content: space-around;\n      top: 21em; }\n      .visitors_chart .company_data .ButtonsDiv .data_events {\n        display: flex;\n        font-size: 10px;\n        background: #bd55ac;\n        border-radius: 20px;\n        width: 68px;\n        height: 15px;\n        padding: 2px 0 0 0;\n        color: #fff;\n        margin-top: 5px;\n        box-shadow: 0 0 5px #383838;\n        cursor: pointer; }\n        .visitors_chart .company_data .ButtonsDiv .data_events i {\n          width: 14px;\n          text-align: center; }\n        .visitors_chart .company_data .ButtonsDiv .data_events h6 {\n          width: 55px;\n          margin: 2px 3px;\n          font-size: 7.8px; }\n        .visitors_chart .company_data .ButtonsDiv .data_events .updownBtn {\n          font-size: 10px; }\n        .visitors_chart .company_data .ButtonsDiv .data_events .upBtn {\n          background-image: url(\"https://static.iviva.com/images/dn-arrow1.svg\");\n          background-position: center center;\n          background-repeat: no-repeat;\n          width: 12px;\n          height: 12px;\n          background-size: contain;\n          text-align: center;\n          margin: 0px 0px 0 4px;\n          cursor: pointer;\n          z-index: 11;\n          position: relative;\n          transform: rotate(180deg); }\n        .visitors_chart .company_data .ButtonsDiv .data_events .downBtn {\n          background-image: url(\"https://static.iviva.com/images/dn-arrow1.svg\");\n          background-position: center center;\n          background-repeat: no-repeat;\n          width: 13px;\n          height: 12px;\n          background-size: contain;\n          text-align: center;\n          margin: 0px 3px 0 -4px;\n          cursor: pointer;\n          z-index: 11;\n          position: relative; }\n    .visitors_chart .company_data .company_data_sec {\n      display: inline-block;\n      width: 92.5px;\n      margin: 0 1px 0;\n      height: 280px; }\n      .visitors_chart .company_data .company_data_sec h6 {\n        display: inline-block;\n        font-size: 8px;\n        width: 100%;\n        text-align: center;\n        margin-top: 13px; }\n      .visitors_chart .company_data .company_data_sec .company_data_cont_sec {\n        display: inline-block;\n        box-sizing: border-box;\n        background: #e2e2e2c7;\n        height: 224px;\n        margin-top: -14px;\n        width: 100%;\n        position: relative;\n        overflow: hidden; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec::-webkit-scrollbar {\n          width: 1px; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData {\n          width: 100%;\n          height: 45em; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData .parent-card {\n            height: auto; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData hr {\n            margin-bottom: 0px;\n            margin-top: 33px;\n            border-top: 1px solid #dcfeff0a !important;\n            visibility: collapse; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall {\n          display: inline-block;\n          width: 100%;\n          padding: 2em 0; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall.second-orange-overall {\n            padding: 10px 0; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall h5 {\n            position: absolute;\n            top: -5px;\n            left: 0px;\n            margin: 0;\n            color: #fff;\n            background: #ac39c8;\n            border-radius: 100%;\n            text-align: center;\n            padding: 4px 6px;\n            font-size: 10px;\n            box-shadow: 0px 0px 2px #414141ad;\n            font-weight: bold; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box {\n          color: #fff;\n          border-radius: 5px;\n          margin: -18px 4px;\n          height: 38px;\n          width: 90%;\n          padding: 12px 0;\n          font-weight: bold; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box span {\n            display: inline-block;\n            font-size: 8px;\n            position: relative;\n            padding-left: 14px;\n            font-weight: bold;\n            width: 90%;\n            white-space: nowrap;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: -3px;\n            position: absolute; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box span::before {\n              background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"12.417\" height=\"11.406\" viewBox=\"0 0 12.417 11.406\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M0,10.336a1.222,1.222,0,0,0,1.33,1.069h9.756a1.222,1.222,0,0,0,1.33-1.069V4.277H0ZM1.774,6.059A.408.408,0,0,1,2.217,5.7H4.878a.408.408,0,0,1,.443.356V8.2a.408.408,0,0,1-.443.356H2.217A.408.408,0,0,1,1.774,8.2Zm9.313-4.634H9.756V.356A.408.408,0,0,0,9.313,0H8.426a.408.408,0,0,0-.443.356V1.426H4.435V.356A.408.408,0,0,0,3.991,0H3.1a.408.408,0,0,0-.443.356V1.426H1.33A1.222,1.222,0,0,0,0,2.495V3.564H12.417V2.495A1.222,1.222,0,0,0,11.087,1.426Z\"/%3E%3C/svg%3E');\n              background-position: 0 0;\n              background-repeat: no-repeat;\n              width: 1em;\n              height: 1em;\n              content: \"\";\n              position: absolute;\n              left: 2px;\n              background-size: contain; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box p {\n            display: inline-block;\n            font-size: 7px;\n            line-height: 1.5em;\n            margin-left: 4px; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box.company-hv-data {\n            position: absolute;\n            cursor: pointer; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box {\n            display: none;\n            width: 174px;\n            background-color: #ffffff;\n            border-radius: 10px;\n            position: fixed;\n            height: fit-content;\n            box-sizing: border-box;\n            padding: 0px 7px;\n            box-shadow: 0px 0px 10px #717171;\n            bottom: -65px;\n            z-index: 3;\n            color: #424242; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box h6 {\n              font-size: 8px;\n              width: 100%;\n              display: inline-block;\n              padding: 0px 0 7px 0;\n              margin-bottom: 0; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box p {\n              font-size: 9px;\n              display: inline-block;\n              line-height: 10px;\n              width: 100%;\n              margin: 5px 0; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul {\n              margin: 5px 0 0 0;\n              padding: 0;\n              display: inline-block;\n              width: 100%; }\n              .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li {\n                display: inline-block;\n                width: 100%; }\n                .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li label {\n                  display: inline-block;\n                  text-transform: uppercase;\n                  font-size: 6px; }\n                .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span {\n                  font-size: 8px;\n                  text-align: right;\n                  float: right;\n                  margin-top: 6px;\n                  width: auto; }\n                  .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle {\n                    width: 6px;\n                    height: 6px;\n                    border-radius: 50%;\n                    display: inline-block;\n                    margin-right: 4px; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Assignment {\n                      background-color: #427adeb3; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Upcoming {\n                      background-color: #ff5314b0; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Delayed {\n                      background-color: #ff5314b0; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.NotAttended {\n                      background-color: #80808096; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Onhold {\n                      background-color: #808080d9; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.InProgress {\n                      background-color: #ff5314b0; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Complete {\n                      background-color: #2cbd66de; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Closed {\n                      background-color: #808080d9; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Cancel {\n                      background-color: #ff0000b8; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events {\n          display: inline-block;\n          font-size: 10px;\n          background: #bd55ac;\n          border-radius: 20px;\n          width: 60%;\n          padding: 6px 0 6px 10px;\n          color: #fff;\n          margin-top: 1em;\n          margin-left: 15%;\n          position: absolute;\n          box-shadow: 0 0 5px #383838;\n          left: 0;\n          bottom: 10px;\n          cursor: pointer; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events::before {\n            content: \"\";\n            position: absolute;\n            top: 7px;\n            right: 7px;\n            pointer-events: none;\n            width: 0;\n            height: 0;\n            margin-top: 4px;\n            border-top: 4px solid #f9f9f9;\n            border-left: 4px solid transparent;\n            border-right: 4px solid transparent; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events select#data_events {\n            display: none; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall {\n          position: absolute; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall::before {\n            background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23ec4b7b;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cg transform='translate(-0.306)'%3E%3Ccircle class='a' cx='7' cy='7' r='7' transform='translate(0.306)'/%3E%3Cpath class='b' d='M5.275.285,4.227,2.411l-2.346.342a.514.514,0,0,0-.284.877l1.7,1.654-.4,2.336a.513.513,0,0,0,.745.541l2.1-1.1,2.1,1.1a.514.514,0,0,0,.745-.541l-.4-2.336,1.7-1.654a.514.514,0,0,0-.284-.877L7.245,2.411,6.2.285a.514.514,0,0,0-.922,0Z' transform='translate(1.389 2.454)'/%3E%3C/g%3E%3C/svg%3E\");\n            background-position: 0 0;\n            background-repeat: no-repeat;\n            width: 12px;\n            height: 12px;\n            content: \"\";\n            position: absolute;\n            right: 0px;\n            top: -5px;\n            background-size: contain;\n            z-index: 2; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall {\n            background: #ff8354;\n            position: relative; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall .data_box {\n              background: #d0611fba;\n              margin-top: 0em; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall::before {\n              display: none; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box {\n          background: #8e8e8e;\n          margin-top: 1em; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box {\n            top: -62px;\n            bottom: unset; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box p {\n              margin-top: 1px; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont {\n              margin-top: 3px; }\n              .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont h6 {\n                font-size: 10px;\n                text-align: left;\n                font-weight: bold;\n                text-transform: uppercase; }\n              .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont p {\n                color: #15ca12; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box ul li {\n              padding: 3px 0; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_grey_sec {\n          background-color: #f9f9f9e8; }\n    .visitors_chart .company_data .updatePrevCardsTime {\n      display: none; }\n  .visitors_chart #chart1 {\n    height: 12em;\n    margin: 10px;\n    display: inline-block;\n    width: 95%; }\n\n.status-Assignment {\n  background: #427adeb3; }\n\n.status-Assignment-Highlight {\n  background: rgba(87, 144, 232, 0.4); }\n\n.status-upcoming-Inprogess-Delayed {\n  background: #ff5314d9; }\n\n.status-upcoming-Inprogess-Delayed-Highlight {\n  background: rgba(245, 102, 48, 0.6); }\n\n.status-NotAttended-OnHold-Closed {\n  background: #808080d9; }\n\n.status-NotAttended-OnHold-Closed-Highlight {\n  background: rgba(131, 133, 134, 0.4); }\n\n.status-Complete {\n  background: #2cbd66de; }\n\n.status-Complete-Hightlight {\n  background: rgba(69, 186, 106, 0.5); }\n\n.status-Cancel {\n  background: #ff0000b8; }\n\n.status-Cancel-Highlight {\n  background: rgba(255, 0, 0, 0.4); }\n\n.company_data_timeslot {\n  margin-top: 26px;\n  width: 61%;\n  position: absolute; }\n\n.company_data_timeslot hr {\n  margin: 0 0 26px 3px;\n  width: 563px;\n  border-top: 1px solid rgba(0, 0, 0, 0.1); }\n\n.box-overall-removeBackground {\n  margin-top: 0px;\n  background: none !important; }\n\n.previous-cards-child {\n  margin-top: -30px !important;\n  height: 21px !important;\n  padding: 3px 2px !important; }\n\n.singlehourMeetingCard-Child {\n  height: 22px !important;\n  margin-top: -11px !important;\n  width: 90% !important;\n  padding: 5px 0 0 0 !important; }\n\n.boxProprty {\n  display: block;\n  top: 340.900146px;\n  left: 530.746399px;\n  background-color: #ffffff;\n  border-radius: 10px;\n  position: fixed;\n  height: fit-content;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  padding: 7px 7px;\n  -webkit-box-shadow: 0px 0px 10px #717171;\n  box-shadow: 0px 0px 10px #717171;\n  bottom: -65px;\n  z-index: 3;\n  color: #424242; }\n\n.uxp-dashboard-container\n.visitors_chart\n.company_data\n.company_data_sec\n.company_data_cont_sec.company_data_cont_blue_sec\n.remove-star-badge::before {\n  background-image: none; }\n\n.showTimeSlot {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  height: 303px; }\n\n.timeslott {\n  font-size: 8px;\n  margin: 27px 0 0 -20px; }\n\n.cards-nums-of-eachday {\n  background: #5752c991;\n  color: white;\n  position: absolute;\n  height: 12px;\n  width: 13px;\n  text-align: center;\n  top: -7px;\n  font-size: 7px;\n  border-radius: 50%;\n  padding: 3px 0px;\n  font-weight: bolder; }\n\n.hide {\n  display: none; }\n", ""]);
+exports.push([module.i, ".maintainence-widget {\n  background-color: #5752c9; }\n  .maintainence-widget .bluebgdefault {\n    height: 100%; }\n\n.visitors_count {\n  float: left;\n  width: 20%;\n  position: relative; }\n  .visitors_count .filteroverall {\n    display: inline-block;\n    position: absolute;\n    width: 86%;\n    left: 3%;\n    top: 0; }\n    .visitors_count .filteroverall .filter_sec {\n      display: inline-block;\n      margin: 1em 0 0 1em;\n      background: url(https://static.iviva.com/images/Adani_UXP/filter-icon.svg) no-repeat center center;\n      width: 2.7em;\n      height: 2.7em;\n      background-size: 40% auto;\n      background-color: #b7b7b7;\n      padding: 10px 10px;\n      border-radius: 50%;\n      cursor: pointer;\n      position: relative; }\n      .visitors_count .filteroverall .filter_sec:hover {\n        background-color: #ffb857; }\n    .visitors_count .filteroverall .filter-menu {\n      background: #fff;\n      border-radius: 10px;\n      font-size: 10px;\n      padding: 2px 5px;\n      box-shadow: 0px 0px 6px #c1c1c1;\n      width: 100%;\n      position: absolute;\n      top: 42px;\n      left: 5px;\n      z-index: 1;\n      display: none;\n      min-height: 26em; }\n      .visitors_count .filteroverall .filter-menu.filter-menu-nav {\n        display: inline-block; }\n      .visitors_count .filteroverall .filter-menu ul {\n        margin: 0;\n        padding: 0; }\n        .visitors_count .filteroverall .filter-menu ul li {\n          display: inline-block;\n          padding: 2px 0;\n          width: 100%; }\n          .visitors_count .filteroverall .filter-menu ul li:last-child {\n            border-bottom: 0px solid #d4d4d4; }\n          .visitors_count .filteroverall .filter-menu ul li a {\n            display: inline-block;\n            padding: 25px 6px;\n            width: 100%;\n            margin: 1px 0;\n            box-sizing: border-box;\n            border-radius: 10px;\n            text-align: center;\n            font-size: 1.3em;\n            background: #fafafa;\n            color: #424242;\n            cursor: pointer; }\n            .visitors_count .filteroverall .filter-menu ul li a:hover, .visitors_count .filteroverall .filter-menu ul li a.filterfootfall_active {\n              background: #ffb857; }\n    .visitors_count .filteroverall .filter_menu_close {\n      display: none;\n      background-color: #433636;\n      color: #ffffff;\n      position: absolute;\n      bottom: 10px;\n      border-radius: 50%;\n      text-align: center;\n      font-family: arial;\n      cursor: pointer;\n      transform: translate(-50%, 0);\n      background-image: url(https://static.iviva.com/images/close.svg);\n      background-position: center center;\n      background-size: 44% auto;\n      filter: invert(1);\n      background-repeat: no-repeat;\n      left: 50%;\n      padding: 12px 12px; }\n  .visitors_count .visitors_count-top {\n    width: 100%;\n    color: #fff;\n    text-align: center;\n    margin-top: 4em;\n    display: inline-block;\n    position: relative;\n    margin-top: 2em; }\n    .visitors_count .visitors_count-top .visitors_count-no {\n      display: inline-block;\n      font-size: 2em;\n      width: 100%;\n      position: relative; }\n      .visitors_count .visitors_count-top .visitors_count-no .visitors_icon {\n        display: inline-block;\n        background: url(https://static.iviva.com/images/Adani_UXP/visitors-icon1.svg) no-repeat 0 0;\n        width: 0.5em;\n        height: 0.5em;\n        position: absolute;\n        top: -15px; }\n    .visitors_count .visitors_count-top .box {\n      position: absolute;\n      left: 5%;\n      width: 90%; }\n      .visitors_count .visitors_count-top .box .uxp-form-group.inline {\n        width: 100%; }\n      .visitors_count .visitors_count-top .box .uxp-form-select {\n        min-width: 111px !important;\n        margin-top: -8px;\n        margin-left: 7px; }\n        .visitors_count .visitors_count-top .box .uxp-form-select .uxp-select-placeholder {\n          padding: 12px !important;\n          color: white;\n          background-color: #8582ccc9;\n          font-size: 9px; }\n          .visitors_count .visitors_count-top .box .uxp-form-select .uxp-select-placeholder::before {\n            content: \"\";\n            position: absolute;\n            top: 51%;\n            right: 7px;\n            width: 20px;\n            height: 20px;\n            background-color: transparent;\n            transform: translateY(-50%);\n            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy45MzkiIGhlaWdodD0iOC45MDEiIHZpZXdCb3g9IjAgMCAxMy45MzkgOC45MDEiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOm5vbmU7c3Ryb2tlOiM0MjQyNDI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDozcHg7b3BhY2l0eTowLjYyOTt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0tMTQ0My43Nyw3NDcuNzQybDQuODM2LDUuMjgyLDQuODY0LTUuMjgyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDQ1Ljg4OSAtNzQ1LjYyMykiLz48L3N2Zz4=);\n            background-position: center;\n            background-repeat: no-repeat;\n            background-size: 50%; }\n      .visitors_count .visitors_count-top .box select {\n        background-color: #8582ccc9;\n        color: white;\n        padding: 12px;\n        width: 87%;\n        border: none;\n        font-size: 20px;\n        box-shadow: 0 0px 7px rgba(0, 0, 0, 0.2);\n        -webkit-appearance: button;\n        appearance: button;\n        outline: none;\n        padding-left: 29px;\n        font-size: 11px;\n        box-sizing: border-box;\n        border-radius: 12px;\n        height: 38px; }\n        .visitors_count .visitors_count-top .box select option {\n          padding: 30px; }\n      .visitors_count .visitors_count-top .box::before {\n        content: \"\";\n        position: absolute;\n        top: 18px;\n        left: 89px;\n        width: 7px;\n        height: 7px;\n        text-align: center;\n        pointer-events: none;\n        background-position: center;\n        background-repeat: no-repeat;\n        background-size: 60% auto;\n        background-color: #ffff;\n        border-radius: 50%;\n        padding: 2px 2px;\n        z-index: 1;\n        background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.021' height='9.361' viewBox='0 0 7.021 9.361'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23424242;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M4.681,2.633V.585a.585.585,0,0,1,1.17,0V2.633Zm2.048.293H.293A.293.293,0,0,0,0,3.218V3.8A.293.293,0,0,0,.293,4.1H.585v.585a2.926,2.926,0,0,0,2.34,2.867V9.361H4.1V7.547a2.926,2.926,0,0,0,2.34-2.867V4.1h.293A.293.293,0,0,0,7.021,3.8V3.218A.293.293,0,0,0,6.728,2.925ZM2.34,2.633V.585a.585.585,0,0,0-1.17,0V2.633Z'/%3E%3C/svg%3E\"); }\n      .visitors_count .visitors_count-top .box:hover::before {\n        color: rgba(255, 255, 255, 0.6);\n        background-color: rgba(255, 255, 255, 0.2); }\n    .visitors_count .visitors_count-top p {\n      display: inline-block;\n      text-transform: uppercase;\n      color: #ffffff;\n      margin-top: 9em;\n      font-size: 1.4em;\n      line-height: 1.5em;\n      padding: 0 0 0 10px;\n      position: relative;\n      width: 80%; }\n      .visitors_count .visitors_count-top p::before {\n        content: \"\";\n        position: absolute;\n        top: -3px;\n        left: -3px;\n        width: 27px;\n        height: 27px;\n        text-align: center;\n        pointer-events: none;\n        background-position: center;\n        background-repeat: no-repeat;\n        background-size: 100% auto;\n        padding: 3px 3px;\n        background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.149' height='19.38' viewBox='0 0 22.149 19.38'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;opacity:0.54;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M21.743,10.15,19.786,8.193a1.384,1.384,0,0,0-.979-.405h-2.2V4.326A2.076,2.076,0,0,0,14.535,2.25H7.614A2.076,2.076,0,0,0,5.537,4.326V7.787h-2.2a1.385,1.385,0,0,0-.979.405L.405,10.15A1.384,1.384,0,0,0,0,11.129v3.579H5.537v-.692a.692.692,0,0,1,.692-.692H7.614a.692.692,0,0,1,.692.692v.692h5.537v-.692a.692.692,0,0,1,.692-.692h1.384a.692.692,0,0,1,.692.692v.692h5.537v-3.58A1.384,1.384,0,0,0,21.743,10.15Zm-7.9-2.363H8.306V5.019h5.537Zm2.769,9a.692.692,0,0,1-.692.692H14.535a.692.692,0,0,1-.692-.692v-.692H8.306v.692a.692.692,0,0,1-.692.692H6.229a.692.692,0,0,1-.692-.692v-.692H0v4.153A1.384,1.384,0,0,0,1.384,21.63h19.38a1.384,1.384,0,0,0,1.384-1.384V16.093H16.611Z' transform='translate(0 -2.25)'/%3E%3C/svg%3E\"); }\n    .visitors_count .visitors_count-top em {\n      font-size: 0.6em;\n      display: inline-block;\n      margin-top: 0.7em;\n      width: 100%; }\n\n.environment_data_widget {\n  display: inline-block;\n  width: 100%;\n  overflow-x: auto;\n  overflow-y: hidden; }\n  .environment_data_widget .environment_data {\n    display: inline-flex;\n    max-width: 100%;\n    min-width: 100%; }\n    .environment_data_widget .environment_data .footfall-arrows {\n      position: absolute;\n      right: 5px;\n      top: 45px;\n      cursor: pointer; }\n    .environment_data_widget .environment_data h5 {\n      display: inline-block;\n      width: 100%;\n      box-sizing: border-box;\n      font-size: 11px;\n      padding: 0 0 10px 10px;\n      text-transform: uppercase;\n      font-weight: 600; }\n\n.visitors_chart {\n  background-color: #ffffff;\n  float: right;\n  width: 80%;\n  height: 100%; }\n  .visitors_chart .visitors_chart_task {\n    display: inline-block;\n    width: 100%;\n    padding: 10px 4% 0px;\n    box-sizing: border-box;\n    text-align: center; }\n    .visitors_chart .visitors_chart_task ul {\n      margin: 0;\n      padding: 0;\n      display: flex;\n      height: 10px; }\n      .visitors_chart .visitors_chart_task ul li {\n        display: inline-block;\n        width: 25%; }\n        .visitors_chart .visitors_chart_task ul li p {\n          display: inline-block;\n          width: 100%;\n          font-size: 9px; }\n        .visitors_chart .visitors_chart_task ul li h4 {\n          display: inline-block;\n          width: 100%;\n          font-size: 19px;\n          font-weight: 100;\n          margin: 0;\n          position: relative; }\n          .visitors_chart .visitors_chart_task ul li h4 em {\n            font-size: 0.7em; }\n          .visitors_chart .visitors_chart_task ul li h4 span.session-pict {\n            display: inline-block;\n            width: 40px;\n            background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 33.62 19.35'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23424242;%7D.cls-2,.cls-3%7Bisolation:isolate;%7D.cls-3%7Bfont-size:10px;fill:%23fff;font-family:Arial-BoldMT, Arial;font-weight:700;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cimage width='19' height='19' transform='translate(0 0.35)' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAA99JREFUOBFtVEtvW0UU/mbu3EfsPBw7TRyHpnmW0EXjUkRBbRBLVqSt2CGkbFk1P6ELNog/QSUW7OLsygYKQlUlQHVaQNA0aVrSxkmaxO/HvfadfnNN1FbqkebO3DNzvvOdx4zAG8TzMOH7WBQCWaGR1eAM5LVAXmrkLQerzSa23mD6usqWWLYkjji0bQntKaFdzjHOjhTa6M0+z1173fKVvwRFKbGiaOBY0CO9tn6r39GnEo5O9yo9HFe6h6B9ttSuglZcKwsrhEgcw5B9VwiUg8aiRQ0ZQDLGuCPRbGuQHWp+GB00a78DVIMO2qGG1shx44rZtMxHMjQBcU0QwGUMAz2KABZcW8DmfzJuIUZghoZKy4BqBJxCDkuKOZqVCHpHmGS3WrhLMglJVI/wQz02GYVIxiwEnZBAFpKeQkjdo2qAKgErrTZImmAE1aJo2+45S4RYooPLRI/E4W6HAOMJBwuTSRxVm3h7ZAAXp9O4NJfBv0+fo1DtAhkDSRYk6mmEj2UIacoeiQmzQf4t5sJ4LtRCpDwHn56dxXqhjO9uP0SFuWsZShRzPvh/jRBZ1QnDbJeVYDI1DHCHCXZsm8PF7MwQHObs9MkR9oqLqZEmDxxhvdw0yY+EZSAw5hX/5o0mNJWhhp0Bz7YwkezB0sVJtJoBYqHEVMLGhekp3FzbRL1Nb4aB7kSAESgbnIXGGse8cRIxYxHKrP1O0WdIASSd/LZ9QN8+lCvx68MC9lsE02FUzShlTDqprEkhkY9iI5jJQchDikXYazVx78kOavQ+MZZAvM/Dg/1DPCkGzGub55h82pgo6J89x2tGihOE/cSUOKoMkU/0K2QGFW6vl5CJCRwdVlFpNvDLxnPc36ljbNBGuU5mPBs1bpfNDck+yyklSwaI/WJSiURcRl6z6V7kd6oYGR1EXVvYKNSRiiukkzbGUi5D6aZOCF3yPC9ntdso8kI3yZrsJGYzcQzGBUxl3h9PQ1oKK39sYX23jPfGezF32gTSxmHFx8QJF3Vfo6PFl74f3CJ2V0YH3dyHc6nFuCPw336JVQXOZTI4MzqMZ0WG2WggkUrhpwdPMRRrsZl9XjugFYjV3O8Hlw1KdDfN4rMPTt5UqvOOZYm5dKoffBTY6T4uXVgAXwrMnF9A70wWf939GXsV4MypfhZUr3pObCm/VWTzRVGb6aV88fHocn6zer3d0QNTwwpXr36Os+c/QoOv4dfffIVa+QB9PU7pn+3K8nqh9u1Ly1eYHSvvbVXvvDsZ+/7v7erjvZLeLe1uiMmp6XTQ9tc27v/4w+aef+PPR7XlZ8XGrWOb4/kF9gqg+/+VcegAAAAASUVORK5CYII='/%3E%3Cimage width='19' height='19' transform='translate(7.53 0.35)' xlink:href='../../Ellipse%252014/Ellipse%252014.png'/%3E%3Ccircle class='cls-1' cx='24.12' cy='9.5' r='9.5'/%3E%3Cg class='cls-2'%3E%3Ctext class='cls-3' transform='translate(18.45 13)'%3E+8%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n            background-position: 0 0;\n            background-repeat: no-repeat;\n            position: absolute;\n            height: 20px;\n            right: 10px; }\n  .visitors_chart .prev_next a {\n    cursor: pointer; }\n  .visitors_chart .company_list {\n    display: inline-block;\n    width: 13.5%;\n    margin-left: 1%;\n    margin-top: 4%; }\n    .visitors_chart .company_list ul {\n      margin: 0;\n      padding: 0; }\n      .visitors_chart .company_list ul li {\n        display: inline-block;\n        width: 85%;\n        font-size: 0.9em;\n        padding: 11px 0;\n        word-wrap: break-word; }\n  .visitors_chart .company_data {\n    display: inline-flex;\n    width: 82%;\n    height: 100%;\n    vertical-align: top; }\n    .visitors_chart .company_data p.no_maintain {\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      transform: translate(-50%, -50%);\n      width: auto;\n      font-size: 15px;\n      color: #424242;\n      font-weight: bold; }\n    .visitors_chart .company_data .company_data_data {\n      display: flex;\n      width: 100%;\n      height: 100%; }\n    .visitors_chart .company_data .ButtonsDiv {\n      position: absolute;\n      display: flex;\n      width: 68%;\n      justify-content: space-around;\n      bottom: 3em; }\n      .visitors_chart .company_data .ButtonsDiv .data_events {\n        display: flex;\n        font-size: 10px;\n        background: #bd55ac;\n        border-radius: 20px;\n        width: 68px;\n        height: 15px;\n        padding: 2px 0 0 0;\n        color: #fff;\n        margin-top: 5px;\n        box-shadow: 0 0 5px #383838;\n        cursor: pointer; }\n        .visitors_chart .company_data .ButtonsDiv .data_events i {\n          width: 14px;\n          text-align: center; }\n        .visitors_chart .company_data .ButtonsDiv .data_events h6 {\n          width: 55px;\n          margin: 2px 3px;\n          font-size: 7.8px; }\n        .visitors_chart .company_data .ButtonsDiv .data_events .updownBtn {\n          font-size: 10px; }\n        .visitors_chart .company_data .ButtonsDiv .data_events .upBtn {\n          background-image: url(\"https://static.iviva.com/images/dn-arrow1.svg\");\n          background-position: center center;\n          background-repeat: no-repeat;\n          width: 12px;\n          height: 12px;\n          background-size: contain;\n          text-align: center;\n          margin: 0px 0px 0 4px;\n          cursor: pointer;\n          z-index: 11;\n          position: relative;\n          transform: rotate(180deg); }\n        .visitors_chart .company_data .ButtonsDiv .data_events .downBtn {\n          background-image: url(\"https://static.iviva.com/images/dn-arrow1.svg\");\n          background-position: center center;\n          background-repeat: no-repeat;\n          width: 13px;\n          height: 12px;\n          background-size: contain;\n          text-align: center;\n          margin: 0px 3px 0 -4px;\n          cursor: pointer;\n          z-index: 11;\n          position: relative; }\n    .visitors_chart .company_data .company_data_sec {\n      display: inline-block;\n      width: 20%;\n      margin: 0 1px 0;\n      height: 100%; }\n      .visitors_chart .company_data .company_data_sec h6 {\n        display: inline-block;\n        font-size: 11px;\n        width: 100%;\n        text-align: center;\n        margin-top: 20px; }\n      .visitors_chart .company_data .company_data_sec .company_data_cont_sec {\n        display: inline-block;\n        box-sizing: border-box;\n        background: #e2e2e2c7;\n        height: 80%;\n        margin-top: 0px;\n        width: 100%;\n        position: relative;\n        overflow: hidden; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec::-webkit-scrollbar {\n          width: 1px; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData {\n          width: 100%;\n          height: 45em; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData .parent-card {\n            height: auto; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .totalhourData hr {\n            margin-bottom: 0px;\n            margin-top: 33px;\n            border-top: 1px solid #dcfeff0a !important;\n            visibility: collapse; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall {\n          display: inline-block;\n          width: 100%;\n          padding: 2em 0; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall.second-orange-overall {\n            padding: 10px 0; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .box-overall h5 {\n            position: absolute;\n            top: -5px;\n            left: 0px;\n            margin: 0;\n            color: #fff;\n            background: #ac39c8;\n            border-radius: 100%;\n            text-align: center;\n            padding: 4px 6px;\n            font-size: 10px;\n            box-shadow: 0px 0px 2px #414141ad;\n            font-weight: bold; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box {\n          color: #fff;\n          border-radius: 5px;\n          margin: -18px 4px;\n          height: 38px;\n          width: 90%;\n          padding: 12px 0;\n          font-weight: bold; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box span {\n            display: inline-block;\n            font-size: 9px;\n            position: relative;\n            padding-left: 14px;\n            font-weight: bold;\n            width: 90%;\n            white-space: nowrap;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: -3px;\n            position: absolute; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box span::before {\n              background-image: url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"12.417\" height=\"11.406\" viewBox=\"0 0 12.417 11.406\"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class=\"a\" d=\"M0,10.336a1.222,1.222,0,0,0,1.33,1.069h9.756a1.222,1.222,0,0,0,1.33-1.069V4.277H0ZM1.774,6.059A.408.408,0,0,1,2.217,5.7H4.878a.408.408,0,0,1,.443.356V8.2a.408.408,0,0,1-.443.356H2.217A.408.408,0,0,1,1.774,8.2Zm9.313-4.634H9.756V.356A.408.408,0,0,0,9.313,0H8.426a.408.408,0,0,0-.443.356V1.426H4.435V.356A.408.408,0,0,0,3.991,0H3.1a.408.408,0,0,0-.443.356V1.426H1.33A1.222,1.222,0,0,0,0,2.495V3.564H12.417V2.495A1.222,1.222,0,0,0,11.087,1.426Z\"/%3E%3C/svg%3E');\n              background-position: 0 0;\n              background-repeat: no-repeat;\n              width: 1em;\n              height: 1em;\n              content: \"\";\n              position: absolute;\n              left: 2px;\n              background-size: contain; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box p {\n            display: inline-block;\n            font-size: 8px;\n            line-height: 1.7em;\n            margin-left: 4px; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box.company-hv-data {\n            position: absolute;\n            cursor: pointer; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box {\n            display: none;\n            width: 230px;\n            background-color: #ffffff;\n            border-radius: 10px;\n            position: fixed;\n            height: fit-content;\n            box-sizing: border-box;\n            padding: 0px 7px;\n            box-shadow: 0px 0px 10px #717171;\n            bottom: -65px;\n            z-index: 3;\n            color: #424242; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box h6 {\n              font-size: 13px;\n              width: 100%;\n              display: inline-block;\n              padding: 0px 0 7px 0;\n              margin-bottom: 0;\n              text-transform: uppercase; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box p {\n              font-size: 12px;\n              display: inline-block;\n              line-height: 16px;\n              width: 100%;\n              margin: 5px 0; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul {\n              margin: 5px 0 0 0;\n              padding: 0;\n              display: inline-block;\n              width: 100%; }\n              .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li {\n                display: inline-block;\n                width: 100%; }\n                .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li label {\n                  display: inline-block;\n                  text-transform: uppercase;\n                  font-size: 10px; }\n                .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span {\n                  font-size: 10px;\n                  text-align: right;\n                  float: right;\n                  margin-top: 6px;\n                  width: auto;\n                  position: relative; }\n                  .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle {\n                    width: 6px;\n                    height: 6px;\n                    border-radius: 50%;\n                    display: inline-block;\n                    margin-right: 4px; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Assignment {\n                      background-color: #427adeb3; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Upcoming {\n                      background-color: #ff5314b0; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Delayed {\n                      background-color: #ff5314b0; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.NotAttended {\n                      background-color: #80808096; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Onhold {\n                      background-color: #808080d9; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.InProgress {\n                      background-color: #ff5314b0; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Complete {\n                      background-color: #2cbd66de; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Closed {\n                      background-color: #808080d9; }\n                    .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_box .maintain_shedule-box ul li span em.status-circle.Cancel {\n                      background-color: #ff0000b8; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events {\n          display: inline-block;\n          font-size: 10px;\n          background: #bd55ac;\n          border-radius: 20px;\n          width: 60%;\n          padding: 6px 0 6px 10px;\n          color: #fff;\n          margin-top: 1em;\n          margin-left: 15%;\n          position: absolute;\n          box-shadow: 0 0 5px #383838;\n          left: 0;\n          bottom: 10px;\n          cursor: pointer; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events::before {\n            content: \"\";\n            position: absolute;\n            top: 7px;\n            right: 7px;\n            pointer-events: none;\n            width: 0;\n            height: 0;\n            margin-top: 4px;\n            border-top: 4px solid #f9f9f9;\n            border-left: 4px solid transparent;\n            border-right: 4px solid transparent; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec .data_events select#data_events {\n            display: none; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall {\n          position: absolute;\n          height: 58px; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall::before {\n            background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23ec4b7b;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cg transform='translate(-0.306)'%3E%3Ccircle class='a' cx='7' cy='7' r='7' transform='translate(0.306)'/%3E%3Cpath class='b' d='M5.275.285,4.227,2.411l-2.346.342a.514.514,0,0,0-.284.877l1.7,1.654-.4,2.336a.513.513,0,0,0,.745.541l2.1-1.1,2.1,1.1a.514.514,0,0,0,.745-.541l-.4-2.336,1.7-1.654a.514.514,0,0,0-.284-.877L7.245,2.411,6.2.285a.514.514,0,0,0-.922,0Z' transform='translate(1.389 2.454)'/%3E%3C/g%3E%3C/svg%3E\");\n            background-position: 0 0;\n            background-repeat: no-repeat;\n            width: 12px;\n            height: 12px;\n            content: \"\";\n            position: absolute;\n            right: 0px;\n            top: -5px;\n            background-size: contain;\n            z-index: 2; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall {\n            background: #ff8354;\n            position: relative; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall .data_box {\n              background: #d0611fba;\n              margin-top: 0em; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_blue_sec .box-overall.orange_box-overall::before {\n              display: none; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box {\n          background: #8e8e8e;\n          margin-top: 1em; }\n          .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box {\n            top: -62px;\n            bottom: unset; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box p {\n              margin-top: 1px; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont {\n              margin-top: 3px; }\n              .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont h6 {\n                font-size: 10px;\n                text-align: left;\n                font-weight: bold;\n                text-transform: uppercase; }\n              .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box .resolut-cont p {\n                color: #15ca12; }\n            .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_greybg_sec .data_box .maintain_shedule-box ul li {\n              padding: 3px 0; }\n        .visitors_chart .company_data .company_data_sec .company_data_cont_sec.company_data_cont_grey_sec {\n          background-color: #f9f9f9e8; }\n    .visitors_chart .company_data .updatePrevCardsTime {\n      display: none; }\n  .visitors_chart #chart1 {\n    height: 12em;\n    margin: 10px;\n    display: inline-block;\n    width: 95%; }\n\n.status-Assignment {\n  background: #427adeb3; }\n\n.status-Assignment-Highlight {\n  background: rgba(87, 144, 232, 0.4); }\n\n.status-upcoming-Inprogess-Delayed {\n  background: #ff5314d9; }\n\n.status-upcoming-Inprogess-Delayed-Highlight {\n  background: rgba(245, 102, 48, 0.6); }\n\n.status-NotAttended-OnHold-Closed {\n  background: #808080d9; }\n\n.status-NotAttended-OnHold-Closed-Highlight {\n  background: rgba(131, 133, 134, 0.4); }\n\n.status-Complete {\n  background: #2cbd66de; }\n\n.status-Complete-Hightlight {\n  background: rgba(69, 186, 106, 0.5); }\n\n.status-Cancel {\n  background: #ff0000b8; }\n\n.status-Cancel-Highlight {\n  background: rgba(255, 0, 0, 0.4); }\n\n.company_data_timeslot {\n  margin-top: 60px;\n  width: 100%;\n  position: absolute; }\n\n.company_data_timeslot hr {\n  margin: 0 0 43px 3px;\n  width: 563px;\n  border-top: 1px solid rgba(0, 0, 0, 0.1); }\n\n.box-overall-removeBackground {\n  margin-top: 0px;\n  background: none !important; }\n\n.previous-cards-child {\n  margin-top: -30px !important;\n  height: 21px !important;\n  padding: 3px 2px !important; }\n\n.singlehourMeetingCard-Child {\n  height: 38px !important;\n  margin-top: -3px !important;\n  width: 90% !important;\n  padding: 5px 0 0 0 !important; }\n\n.boxProprty {\n  display: block;\n  top: 340.900146px;\n  left: 530.746399px;\n  background-color: #ffffff;\n  border-radius: 10px;\n  position: fixed;\n  height: fit-content;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  padding: 7px 7px;\n  -webkit-box-shadow: 0px 0px 10px #717171;\n  box-shadow: 0px 0px 10px #717171;\n  bottom: -65px;\n  z-index: 3;\n  color: #424242; }\n\n.uxp-dashboard-container\n.visitors_chart\n.company_data\n.company_data_sec\n.company_data_cont_sec.company_data_cont_blue_sec\n.remove-star-badge::before {\n  background-image: none; }\n\n.showTimeSlot {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  height: 303px; }\n\n.timeslott {\n  font-size: 8px;\n  margin: 27px 0 0 -20px; }\n\n.cards-nums-of-eachday {\n  background: #5752c991;\n  color: white;\n  position: absolute;\n  height: 12px;\n  width: 13px;\n  text-align: center;\n  top: -7px;\n  font-size: 7px;\n  border-radius: 50%;\n  padding: 3px 0px;\n  font-weight: bolder; }\n\n.hide {\n  display: none; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -9683,9 +9683,9 @@ module.exports = /*#__PURE__*/function (_BaseClient) {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-dev-server/client/index.js?http://localhost:8084":
+/***/ "./node_modules/webpack-dev-server/client/index.js?http://localhost:8080":
 /*!*********************************************************!*\
-  !*** (webpack)-dev-server/client?http://localhost:8084 ***!
+  !*** (webpack)-dev-server/client?http://localhost:8080 ***!
   \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -9867,7 +9867,7 @@ var onSocketMessage = {
   }
 };
 socket(socketUrl, onSocketMessage);
-/* WEBPACK VAR INJECTION */}.call(this, "?http://localhost:8084"))
+/* WEBPACK VAR INJECTION */}.call(this, "?http://localhost:8080"))
 
 /***/ }),
 
@@ -10571,6 +10571,265 @@ const React = __importStar(__webpack_require__(/*! react */ "react"));
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+var initdataset = [
+    {
+        "MaintenanceService": [
+            {
+                "ServiceCategoryName": "Electrical",
+                "ServiceCategoryKey": "1",
+                "IsSelected": "0"
+            },
+            {
+                "ServiceCategoryName": "HVAC",
+                "ServiceCategoryKey": "2",
+                "IsSelected": "1"
+            },
+            {
+                "ServiceCategoryName": "Civil",
+                "ServiceCategoryKey": "3",
+                "IsSelected": "0"
+            },
+            {
+                "ServiceCategoryName": "Security",
+                "ServiceCategoryKey": "4",
+                "IsSelected": "0"
+            },
+            {
+                "ServiceCategoryName": "Housekeeping",
+                "ServiceCategoryKey": "5",
+                "IsSelected": "0"
+            }
+        ],
+        "Vendors": [
+            {
+                "VendorName": "Carrier",
+                "VendorKey": "1"
+            },
+            {
+                "VendorName": "Johnson Controls",
+                "VendorKey": "2"
+            }
+        ],
+        "WRScheduleDatails": {
+            "22-07-2020": [
+                {
+                    "Name": "Carrier",
+                    "ScheduleStartDT": "2020-07-22T10:30:00",
+                    "ScheduleEndDT": "2020-07-22T12:30:00",
+                    "CardDetails": {
+                        "Name": "Carrier",
+                        "Subject": "",
+                        "Location": "3F",
+                        "System": "HVAC",
+                        "Date": "2020-07-20T02:55:00",
+                        "Status": "Upcoming"
+                    }
+                }
+            ],
+            "24-07-2020": [
+                {
+                    "Name": "Carrier",
+                    "ScheduleStartDT": "2020-07-23T09:30:00",
+                    "ScheduleEndDT": "2020-07-23T11:30:00",
+                    "CardDetails": {
+                        "Name": "Carrier",
+                        "Subject": "Water Leakage in 5th floor AC",
+                        "Location": "F5",
+                        "System": "HVAC",
+                        "Date": "2020-07-22T13:30:00",
+                        "Status": "Delayed"
+                    }
+                },
+                {
+                    "Name": "Johnson Control",
+                    "ScheduleStartDT": "2020-07-23T14:30:00",
+                    "ScheduleEndDT": "2020-07-23T16:30:00",
+                    "CardDetails": {
+                        "Name": "Johnson Control",
+                        "Subject": "Power Outage in 5th floor AC",
+                        "Location": "F5",
+                        "System": "HVAC",
+                        "Date": "2020-07-22T13:30:00",
+                        "Status": "Not Attended"
+                    }
+                }
+            ],
+            "25-07-2020": [
+                {
+                    "Name": "Carrier",
+                    "ScheduleStartDT": "2020-07-25T09:30:00",
+                    "ScheduleEndDT": "2020-07-25T11:30:00",
+                    "CardDetails": {
+                        "Name": "Carrier",
+                        "Subject": "Water Leakage in 5th floor AC",
+                        "Location": "F5",
+                        "System": "HVAC",
+                        "Date": "2020-07-24T13:30:00",
+                        "Status": "Onhold"
+                    }
+                },
+                {
+                    "Name": "Johnson Control",
+                    "ScheduleStartDT": "2020-07-25T11:30:00",
+                    "ScheduleEndDT": "2020-07-25T12:30:00",
+                    "CardDetails": {
+                        "Name": "Johnson Control",
+                        "Subject": "Power Outage in 5th floor AC",
+                        "Location": "F5",
+                        "System": "HVAC",
+                        "Date": "2020-07-24T13:30:00",
+                        "Status": "Cancel"
+                    }
+                },
+                {
+                    "Name": "Johnson Control",
+                    "ScheduleStartDT": "2020-07-25T14:30:00",
+                    "ScheduleEndDT": "2020-07-25T16:30:00",
+                    "CardDetails": {
+                        "Name": "Johnson Control",
+                        "Subject": "Power Outage in 5th floor AC",
+                        "Location": "F5",
+                        "System": "HVAC",
+                        "Date": "2020-07-24T13:30:00",
+                        "Status": "Assignment"
+                    }
+                }
+            ],
+            "26-07-2020": [
+                {
+                    "Name": "Carrier",
+                    "ScheduleStartDT": "2020-07-26T09:30:00",
+                    "ScheduleEndDT": "2020-07-26T11:30:00",
+                    "CardDetails": {
+                        "Name": "Carrier",
+                        "Subject": "Water Leakage in 5th floor AC",
+                        "Location": "F5",
+                        "System": "HVAC",
+                        "Date": "2020-07-25T13:30:00",
+                        "Status": "InProgress"
+                    }
+                },
+                {
+                    "Name": "Johnson Control",
+                    "ScheduleStartDT": "2020-07-26T11:30:00",
+                    "ScheduleEndDT": "2020-07-26T12:30:00",
+                    "CardDetails": {
+                        "Name": "Johnson Control",
+                        "Subject": "Power Outage in 5th floor AC",
+                        "Location": "F5",
+                        "System": "HVAC",
+                        "Date": "2020-07-24T13:30:00",
+                        "Status": "Closed"
+                    }
+                }
+            ],
+            "27-07-2020": [
+                {
+                    "Name": "Johnson Control",
+                    "ScheduleStartDT": "2020-07-27T11:30:00",
+                    "ScheduleEndDT": "2020-07-27T12:30:00",
+                    "CardDetails": {
+                        "Name": "Johnson Control",
+                        "Subject": "Power Outage in 5th floor AC",
+                        "Location": "F5",
+                        "System": "HVAC",
+                        "Date": "2020-07-26T13:30:00",
+                        "Status": "Complete"
+                    }
+                }
+            ]
+        }
+    }
+];
+var loaddataset = [
+    {
+        "Vendors": [
+            {
+                "VendorName": "L&T",
+                "VendorKey": "1"
+            },
+            {
+                "VendorName": "LG Electronics",
+                "VendorKey": "2"
+            }
+        ],
+        "WRScheduleDatails": {
+            "14-05-2020": [
+                {
+                    "Name": "LG Electronics",
+                    "ScheduleStartDT": "2020-05-14T07:30:00",
+                    "ScheduleEndDT": "2020-05-14T09:30:00",
+                    "CardDetails": {
+                        "Name": "LG Electronics",
+                        "Subject": "Light off in 3rd floor with severity level high",
+                        "Location": "F3",
+                        "System": "Electrical",
+                        "Date": "2020-05-12T02:55:00",
+                        "Status": "Upcoming"
+                    }
+                },
+                {
+                    "Name": "LG Electronics",
+                    "ScheduleStartDT": "2020-05-14T09:30:00",
+                    "ScheduleEndDT": "2020-05-14T11:00:00",
+                    "CardDetails": {
+                        "Name": "LG Electronics",
+                        "Subject": "Poor Light in 5th floor",
+                        "Location": "F5",
+                        "System": "Electrical",
+                        "Date": "2020-05-12T13:30:00",
+                        "Status": "Upcoming"
+                    }
+                }
+            ],
+            "15-05-2020": [
+                {
+                    "Name": "LG Electronics",
+                    "ScheduleStartDT": "2020-05-15T09:00:00",
+                    "ScheduleEndDT": "2020-05-15T11:00:00",
+                    "CardDetails": {
+                        "Name": "LG Electronics",
+                        "Subject": "No power in 6th floor",
+                        "Location": "F6",
+                        "System": "Electrical",
+                        "Date": "2020-05-10T02:57:00",
+                        "Status": "Upcoming"
+                    }
+                }
+            ],
+            "20-05-2020": [
+                {
+                    "Name": "L&T",
+                    "ScheduleStartDT": "2020-05-20T07:30:00",
+                    "ScheduleEndDT": "2020-05-20T08:30:00",
+                    "CardDetails": {
+                        "Name": "L&T",
+                        "Subject": "No power in the 5th floor Z1",
+                        "Location": "F5",
+                        "System": "Electrical",
+                        "Date": "2020-05-10T12:00:00",
+                        "Status": "Upcoming"
+                    }
+                }
+            ],
+            "22-05-2020": [
+                {
+                    "Name": "L&T",
+                    "ScheduleStartDT": "2020-05-22T11:30:00",
+                    "ScheduleEndDT": "2020-05-22T13:30:00",
+                    "CardDetails": {
+                        "Name": "Carrier",
+                        "Subject": "No Power in 5th floor space 2",
+                        "Location": "F5",
+                        "System": "HVAC",
+                        "Date": "2020-05-08T12:30:00",
+                        "Status": "Upcoming"
+                    }
+                }
+            ]
+        }
+    }
+];
 const MaintenanceSchedule = (props) => {
     const boxRef = React.useRef(null);
     let { uxpContext } = props;
@@ -10597,9 +10856,16 @@ const MaintenanceSchedule = (props) => {
     }
     function getMaintainenceSchedule() {
         return __awaiter(this, void 0, void 0, function* () {
-            let mdata = yield props.uxpContext.executeAction("AdaniDashboard", "MaintainenceSchedule_InitLoad", { json: true });
-            let md = JSON.parse(mdata);
-            debugger;
+            // debugger;
+            // let mdata = await props.uxpContext.executeAction(
+            //   "AdaniDashboard",
+            //   "MaintainenceSchedule_InitLoad",
+            //   { json: true }
+            // );
+            // let md = JSON.parse(mdata);
+            let md = JSON.parse("initdataset");
+            console.log("Hello", md);
+            // debugger;
             var newArray = [];
             md.MaintenanceService.forEach((i) => {
                 newArray.push({
@@ -10623,7 +10889,14 @@ const MaintenanceSchedule = (props) => {
             };
             let md = yield props.uxpContext.executeAction("AdaniDashboard", "MaintainenceSchedule_LoadData", params, { json: true });
             setselService(selectedService);
+            // md[0].Vendors.push(
+            //   {
+            //     "VendorName": "Havells",
+            //     "VendorKey": "3"
+            // },
+            // )
             MaintainenceScheduleInit(md);
+            console.log("hey", md.WRScheduleDatails);
             setdata(md.WRScheduleDatails);
         });
     }
@@ -10791,7 +11064,7 @@ const MaintenanceSchedule = (props) => {
                                 ` ` +
                                 removeStarBadge +
                                 `" 
-                        id='` +
+                    id='` +
                                 property +
                                 "-" +
                                 wr_start_date.getHours() +
@@ -10800,63 +11073,63 @@ const MaintenanceSchedule = (props) => {
                                 `; padding: ` +
                                 paddingOfCards +
                                 `'>
-                          <div class='cards-nums-of-eachday'>` +
+                      <div class='cards-nums-of-eachday'>` +
                                 (cardNum + 1) +
                                 `</div>
-                          <div class="data_box blue-data_box company-hv-data ` +
+                      <div class="data_box blue-data_box company-hv-data ` +
                                 color_class +
                                 ` ` +
                                 backgroundOfCards_child +
                                 `">
-                            <span>` +
+                        <span>` +
                                 v[p].Name +
                                 `</span>
-                            <p>` +
+                        <p>` +
                                 wr_start_time +
                                 ` - ` +
                                 wr_end_time +
                                 `</p>    
-                            <div class="maintain_shedule-box ` +
+                        <div class="maintain_shedule-box ` +
                                 property +
                                 "-" +
                                 wr_start_date.getHours() +
                                 `MSbox">                            
-                              <h6>` +
+                          <h6>` +
                                 v[p].CardDetails.Name +
                                 `</h6>
-                              <p>` +
+                          <p>` +
                                 v[p].CardDetails.Subject +
                                 `</p>  
-                              <ul>    
-                                <li>   
-                                  <label>Floor </label>
-                                  <span>` +
+                          <ul>    
+                            <li>   
+                              <label>Floor </label>
+                              <span>` +
                                 v[p].CardDetails.Location +
                                 `</span>
-                                </li>
-                                <li>   
-                                  <label>System </label>
-                                  <span>` +
+                            </li>
+                            <li>   
+                              <label>System </label>
+                              <span>` +
                                 v[p].CardDetails.System +
                                 `</span>
-                                </li>
-                                <li>   
-                                  <label>Reported Date </label>
-                                  <span>` +
+                            </li>
+                            <li>   
+                              <label>Reported Date </label>
+                              <span>` +
                                 maintain_shedule_date +
                                 `</span>
-                                </li>                              
-                                <li>   
-                                  <label>Status </label>
-                                  <span><em class="status-circle ` +
+                            </li>                              
+                            <li>   
+                              <label>Status </label>
+                              <span><em class="status-circle ` +
                                 Cardstatus +
                                 `"></em>` +
                                 v[p].CardDetails.Status +
                                 `</span>
-                                </li>
-                              </ul>  
-                            </div>  
-                          </div>`;
+                            </li>
+                          </ul>  
+                        </div>  
+                      </div>`;
                         cardNum = cardNum + 1;
                     }
                     eventsTime.push(wr_start_date.getHours());
@@ -10896,28 +11169,28 @@ const MaintenanceSchedule = (props) => {
         setPrevCardsTime(storePrevCardsTime);
         var widthOfhr;
         if (storeEventNum.length == 1) {
-            document.getElementById("ButtonsDivParent").style.width = "11%";
-            widthOfhr = "91px";
+            document.getElementById("ButtonsDivParent").style.width = "12%";
+            widthOfhr = "11%";
         }
         else if (storeEventNum.length == 2) {
-            document.getElementById("ButtonsDivParent").style.width = "22%";
-            widthOfhr = "185px";
+            document.getElementById("ButtonsDivParent").style.width = "23%";
+            widthOfhr = "22.3%";
         }
         else if (storeEventNum.length == 3) {
             document.getElementById("ButtonsDivParent").style.width = "34%";
-            widthOfhr = "280px";
+            widthOfhr = "33.6%";
         }
         else if (storeEventNum.length == 4) {
-            document.getElementById("ButtonsDivParent").style.width = "45%";
-            widthOfhr = "374px";
+            document.getElementById("ButtonsDivParent").style.width = "53%";
+            widthOfhr = "52%";
         }
         else if (storeEventNum.length == 5) {
-            document.getElementById("ButtonsDivParent").style.width = "57%";
-            widthOfhr = "469px";
+            document.getElementById("ButtonsDivParent").style.width = "66%";
+            widthOfhr = "65.3%";
         }
         else if (storeEventNum.length == 6) {
-            document.getElementById("ButtonsDivParent").style.width = "68%";
-            widthOfhr = null;
+            document.getElementById("ButtonsDivParent").style.width = "75%";
+            widthOfhr = "74.3%";
         }
         if (widthOfhr != null) {
             for (let w = 1; w <= 8; w++) {
@@ -10988,7 +11261,7 @@ const MaintenanceSchedule = (props) => {
     //For up & down scroll button functionality
     var atTop = true, atLast = true;
     function upDownBtnEvent(CurDate, no, divNUm) {
-        debugger;
+        // debugger;
         if ((eachCardTimeslot[divNUm - 1][0] != 1 && no == 0) ||
             (eachCardTimeslot[divNUm - 1][7] != 23 && no == 1)) {
             eachCardTimeslot[divNUm - 1] = eachCardTimeslot[divNUm - 1].map(function (entry) {
@@ -11089,7 +11362,8 @@ const MaintenanceSchedule = (props) => {
         }
         else {
             h[0].style.top = "60px";
-            h[0].style.left = (rect.left - 400).toString() + "px";
+            h[0].style.left = (rect.left - 120).toString() + "px";
+            //h[0].style.left = (rect.left - 400).toString() + "px";
             h[0].style.display = "block";
         }
     }
@@ -11214,14 +11488,11 @@ uxp_1.registerWidget({
 /**
  * Register as a Sidebar Link
  */
-/*
-registerLink({
-    id: "maintentce_shedule_widget",
-    label: "Maintentce_shedule_widget",
-    // click: () => alert("Hello"),
-    component: Maintentce_shedule_widgetWidget
-});
-*/
+// registerLink({
+//     id: "maintentce_shedule_widget", 
+//     // click: () => alert("Hello"),
+//     component: Maintentce_shedule_widgetWidget
+// });
 /**
  * Register as a UI
  */
@@ -11362,12 +11633,12 @@ exports.registerUI = registerUI;
 
 /***/ 0:
 /*!*******************************************************************************!*\
-  !*** multi (webpack)-dev-server/client?http://localhost:8084 ./src/index.tsx ***!
+  !*** multi (webpack)-dev-server/client?http://localhost:8080 ./src/index.tsx ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Udhay Project files\Project-2021\uxp-generic-widgets\maintentce_shedule_widget\node_modules\webpack-dev-server\client\index.js?http://localhost:8084 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:8084");
+__webpack_require__(/*! D:\Udhay Project files\Project-2021\uxp-generic-widgets\maintentce_shedule_widget\node_modules\webpack-dev-server\client\index.js?http://localhost:8080 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
 module.exports = __webpack_require__(/*! ./src/index.tsx */"./src/index.tsx");
 
 

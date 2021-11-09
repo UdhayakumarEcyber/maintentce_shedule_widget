@@ -1,6 +1,6 @@
 {
     "id": "c26da126-119b-4978-9bf3-b15379478897",
-    "author": "Eutech",
+    "author": "eutech",
     "widgets": [
         {
             "id": "maintentce_shedule_widget",
@@ -15,8 +15,27 @@
             "description":"MaintenanceSchedule"
         }
     ],
-    "sidebarLinks": [
-        
+    "sidebarLinks":[
+        {
+            "id":"DigitalTwin",
+            "label":"Digital Twin",
+            "description":"Digital Twin"
+        },
+        {
+            "id":"TenantManagement",
+            "label":"Tenant Management",
+            "description":"Tenant Management"
+        },
+        {
+            "id":"IncidentManagement",
+            "label":"Incident Management",
+            "description":"Incident Management"
+        },
+        {
+            "id":"WOManagement",
+            "label":"Work Order Management",
+            "description":"Work Order Management"
+        }
     ],
     "uis": [
        
